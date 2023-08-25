@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-24T12:45:11 IST" name="All Test Suite" finished-at="2023-08-24T12:47:07 IST" duration-ms="115693">
+    <groups>
+    </groups>
+    <test started-at="2023-08-24T12:45:11 IST" name="/home/maria/Music/ChangesPlenthora/src/test/java/testScripts/TestScripts1.java" finished-at="2023-08-24T12:47:07 IST" duration-ms="115693">
+      <class name="testScripts.TestScripts1">
+        <test-method is-config="true" signature="StartServer()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:45:11 IST" name="StartServer" finished-at="2023-08-24T12:45:13 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartServer -->
+        <test-method is-config="true" signature="GetData()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:45:13 IST" name="GetData" finished-at="2023-08-24T12:45:32 IST" duration-ms="18431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="validateOrderWithSingleProduct()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:45:32 IST" name="validateOrderWithSingleProduct" finished-at="2023-08-24T12:45:57 IST" duration-ms="25826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderWithSingleProduct -->
+        <test-method is-config="true" signature="appClose()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:45:57 IST" name="appClose" finished-at="2023-08-24T12:45:58 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+        <test-method is-config="true" signature="GetData()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:45:58 IST" name="GetData" finished-at="2023-08-24T12:46:08 IST" duration-ms="10594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="validateDeleteProducts()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:46:08 IST" name="validateDeleteProducts" finished-at="2023-08-24T12:46:25 IST" duration-ms="16424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteProducts -->
+        <test-method is-config="true" signature="appClose()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:46:25 IST" name="appClose" finished-at="2023-08-24T12:46:26 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+        <test-method is-config="true" signature="GetData()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:46:26 IST" name="GetData" finished-at="2023-08-24T12:46:38 IST" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="validateCatalogesCatagories()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:46:38 IST" name="validateCatalogesCatagories" finished-at="2023-08-24T12:47:04 IST" duration-ms="25416" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.xpath: //android.widget.ImageView[@content-desc="Salt"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //android.widget.ImageView[@content-desc="Salt"]
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+at pages.CategoriesPage.verifySaltProduct(CategoriesPage.java:45)
+at testScripts.TestScripts1.validateCatalogesCatagories(TestScripts1.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3b0f7d9d (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'praveen-thinkpad-t450', ip: '192.168.171.160', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '11.0.19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.exathought.vikray.mobil..., appPackage: com.exathought.vikray.mobil..., databaseEnabled: false, desired: {appActivity: com.exathought.vikray.mobil..., appPackage: com.exathought.vikray.mobil..., deviceId: emulator-5554, noReset: true, parallel: false, platformName: android, platformVersion: 13}, deviceApiLevel: 33, deviceId: emulator-5554, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, parallel: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 136, takesScreenshot: true, viewportRect: {height: 2002, left: 0, top: 136, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f0061d0b-ddf8-453f-a347-5d31337b3a41
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Salt"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCatalogesCatagories -->
+        <test-method is-config="true" signature="appClose()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:47:05 IST" name="appClose" finished-at="2023-08-24T12:47:05 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+        <test-method is-config="true" signature="StopeServer()[pri:0, instance:testScripts.TestScripts1@64d7f7e0]" started-at="2023-08-24T12:47:05 IST" name="StopeServer" finished-at="2023-08-24T12:47:07 IST" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopeServer -->
+      </class> <!-- testScripts.TestScripts1 -->
+    </test> <!-- /home/maria/Music/ChangesPlenthora/src/test/java/testScripts/TestScripts1.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
