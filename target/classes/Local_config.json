@@ -1,0 +1,22 @@
+{
+  "Android_capabilities": {
+  "platformName": "Android",
+  "deviceId": "emulator-5554",
+  "platformVersion": "13",
+  "appPackage":"com.exathought.vikray.mobile.customer.fmcg.demo",
+  "appActivity":"com.exathought.vikray.mobile.customer.fmcg.demo.MainActivity",
+  "noReset":"true",
+  "parallel":"false"
+},
+  "Ios_capabilities":{
+   "platform": "IOS",
+    "osType":"IOS",
+    "deviceName": "simulator-5554",
+    "version": "13",
+    "bundleId": "",
+    "noReset":"true",
+    "parallel":"false"
+}
+}
+
+

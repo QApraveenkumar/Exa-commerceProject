@@ -1,0 +1,27 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "praveenkumar_0lHwxm",
+  "access_key": "7EzetxbzGJPx4hsDxUry",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "TestNg Android Parallel",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "app": "bs://de3ed21fc564390b488f6a5202a6626183f79588"
+  },
+  "environments": [
+    {
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    },
+    {
+      "device": "Samsung Galaxy S10e",
+      "os_version": "9.0"
+    },
+    {
+      "deviceName": "Samsung Galaxy S23 Ultra",
+      "platformVersion": "13.0"
+    }
+  ]
+}
